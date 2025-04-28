@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("VZapret")
-        self.setGeometry(100, 100, 400, 300)
+        self.setFixedSize(400, 300)
 
         # Главный виджет
         central_widget = QWidget()
